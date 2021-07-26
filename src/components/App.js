@@ -1,4 +1,4 @@
-import './App.css';
+import '../style/App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -9,9 +9,9 @@ import Page from './Page.js';
 import Feed from './Feed.js';
 import Loader from './Loader.js';
 import Post from './Post.js';
-import Apply from './Apply.js';
+import Apply from './Apply';
 
-import InternsImg from './img/interns.png';
+import InternsImg from '../img/interns.png';
 
 class App extends React.Component {
   constructor(props){

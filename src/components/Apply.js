@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import firebase from './firebase.js';
+import firebase from '../modules/firebase.js';
 import Company from './Company.js';
 
 function Apply() {
